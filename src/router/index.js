@@ -62,7 +62,10 @@ const routes = [{
             name: 'Detail',
             component: () =>
                 import ('@/views/DetailsProduct.vue'),
-            props: true
+            props: true,
+            meta: {
+                requiresAuth: true
+            }
         },
         {
             path: '/Login',

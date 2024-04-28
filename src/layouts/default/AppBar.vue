@@ -40,7 +40,7 @@
           </v-btn>
 
         </v-col>
-        <v-col class="text-center d-md-none d-sm-flex" >
+        <v-col class="text-center d-md-none d-sm-flex" cols="2">
           <v-menu width="100%" class="text-center">
             <template v-slot:activator="{ props }">
               <v-app-bar-nav-icon
@@ -50,7 +50,7 @@
               >
               </v-app-bar-nav-icon>
             </template>
-            <v-list>
+            <v-list class="mt-2">
               <v-list-item>
                 <v-list-item-title class="text-h5  pa-2 mx-1 text-purple-darken-4"><router-link to="/">{{
                   $t('message.home') }}</router-link>
@@ -122,8 +122,8 @@ export default {
 
 
 </script>
-<style>
-.v-app-bar {
+<style scoped>
+.v-app-bar ,.v-list {
   max-width: 100vw !important;
   background: linear-gradient(to top left, #82bce9b8, #f88fb4bb) !important;
   backdrop-filter: blur(18px) !important;

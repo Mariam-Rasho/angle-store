@@ -55,7 +55,7 @@ export default {
       }, {
         title: "Winter Girls Clothing",
         content: "Dress your girls in the cutest outfits that will make them feel confident and happy.They have a variety of options to choose from,including different colors and designs",
-        src: "/images/photo_2023-11-04_22-21-01-removebg-preview.png"
+        src: "/images/99fc56c8bf5900f784f4fd3ee904cbd5-removebg-preview.png"
 
       }, {
         title: "winter Boys Clothing",

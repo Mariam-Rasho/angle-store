@@ -10,7 +10,7 @@
 </template>
 
 <script setup>
-const categories=["All products","Dress","T-Shirt","Skirt suit","Jacket","Sweater"];
+const categories=["All products","Dress","T-Shirt","Skirt suit","Jacket","Sweater","Shoes"];
 
 </script>
 
