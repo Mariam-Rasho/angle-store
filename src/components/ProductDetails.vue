@@ -6,7 +6,8 @@
                 <v-card height="100%" flat>
                     <v-row justify="center" align="center" height="100%" class="ma-0">
                       <v-col md="5" class="pa-0">
-                        <v-img height="400px" width="400px" :src="product.img" :lazy-src="`https://picsum.photos/10/6?image=${5 + 10}`" cover />
+                        <v-img height="400px" width="400px" :src="product.img" :lazy-src="`https://picsum.photos/10/6?image=${5 + 10}`"
+                        alt="`https://picsum.photos/10/6?image=${5 + 10}`" cover />
                       </v-col>
                       <v-col class="py-0">
                         <v-card-title class="text-h4">

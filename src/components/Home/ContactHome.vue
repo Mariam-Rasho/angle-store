@@ -2,7 +2,7 @@
   <v-container  class="mx-auto my-16"  fluid>
     <v-row justify="center" align="center" >
        <v-col md="6" sm="6" xs="7"> <v-img  :height="500"
-          src="/imgHome/Mention-amico (1).svg"  :lazy-src="`https://picsum.photos/10/6?image=${ 5 + 10}`"></v-img>
+          src="/imgHome/Mention-amico (1).svg"  :lazy-src="`https://picsum.photos/10/6?image=${ 5 + 10}`" alt="`https://picsum.photos/10/6?image=${5 + 10}`"></v-img>
       </v-col>
       <v-col md="4" sm="7" class="px-0 form" align-self="center">
         <v-form class="px-md-16 bg py-10 px-5 glass-card" width="100%">

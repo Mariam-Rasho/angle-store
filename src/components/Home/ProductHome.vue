@@ -1,6 +1,6 @@
 <template>
   <v-card  hover>
-    <v-img class="align-end pa-0 ma-0" height="240" :src="product.img" :lazy-src="`https://picsum.photos/10/6?image=${5 + 10}`" cover>
+    <v-img class="align-end pa-0 ma-0" height="240" :src="product.img" :lazy-src="`https://picsum.photos/10/6?image=${5 + 10}`"  alt="`https://picsum.photos/10/6?image=${5 + 10}`" cover>
     </v-img>
 
     <div class="bg-grey-lighten-5">

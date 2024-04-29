@@ -2,7 +2,7 @@
   <v-container height="50%">
     <v-row align="center" justify="center" height="400" class="mt-16">
       <v-col md="6" >
-        <v-img height="390" width="500" cover src="/src/assets/images/photo_2023-11-05_01-32-55.jpg"  :lazy-src="`https://picsum.photos/10/6?image=${5 + 10}`"></v-img>
+        <v-img height="390" width="500" cover src="/src/assets/images/photo_2023-11-05_01-32-55.jpg"  :lazy-src="`https://picsum.photos/10/6?image=${5 + 10}`" alt="`https://picsum.photos/10/6?image=${5 + 10}`"></v-img>
       </v-col>
       <v-col md="6" cols="auto">
         <v-card class="py-7 bg ma-md-auto mx-sm-0" min-height="390">
@@ -38,7 +38,7 @@
       </v-col>
       <v-col md="6" sm="12">
         <v-img class="mt-16" height="330" width="600" cover
-          src="/src/assets/images/photo_2023-11-05_15-22-39.jpg" :lazy-src="`https://picsum.photos/10/6?image=${5 + 10}`"></v-img>
+          src="/src/assets/images/photo_2023-11-05_15-22-39.jpg" :lazy-src="`https://picsum.photos/10/6?image=${5 + 10}`" alt="`https://picsum.photos/10/6?image=${5 + 10}`"></v-img>
       </v-col>
     </v-row>
   </v-container>

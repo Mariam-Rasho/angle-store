@@ -12,7 +12,7 @@
               <v-btn rounded="xl" density="comfortable" elevation="4" class="bg text-purple-darken-4  text-md-h6 text-sm-subtitle-6" size="large" max-width="170"  to="/Product"> Buy Now</v-btn>
           </v-col>
           <v-col md="5" cols="8">
-            <v-img :src="item.src"  min-height="500" max-width="900"  ></v-img>
+            <v-img :src="item.src"  min-height="500" max-width="900"  alt="`https://picsum.photos/10/6?image=${5 + 10}`"></v-img>
           </v-col>
         </v-row>
     </v-carousel-item>

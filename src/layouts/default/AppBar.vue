@@ -4,7 +4,7 @@
       <v-row no-gutters justify="center" align="center" class="py-8">
         <v-col cols="3" >
           <v-app-bar-title>
-            <v-img min-width="100px" src="@/assets/Screenshot__295_-removebg-preview (1).png"  :lazy-src="`https://picsum.photos/10/6?image=${5 + 10}`"></v-img>
+            <v-img min-width="100px" src="@/assets/Screenshot__295_-removebg-preview (1).png"   alt="`https://picsum.photos/10/6?image=${5 + 10}`"></v-img>
           </v-app-bar-title>
         </v-col>
       <v-col cols="auto" md="6" class="d-none d-sm-flex align-center justify-center">
@@ -28,7 +28,7 @@
             <v-badge location="right top" :content="totalCount" color="deep-purple-lighten-2"><v-icon
                 color='deep-purple-lighten-1'>mdi-cart</v-icon></v-badge>
           </v-btn>
-          <v-btn icon to="Favorite" size="medium" class="mr-3">
+          <v-btn icon to="/Favorite" size="medium" class="mr-3">
             <v-icon color="red-darken-4">mdi-heart</v-icon>
           </v-btn>
           <v-btn icon @click="changeLocale()" size="medium" class="mr-3">

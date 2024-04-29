@@ -3,7 +3,7 @@
         <v-row justify="center" class="my-16">
             <v-col v-for=" item in Category" :key="item" cols="auto">
                 <v-card class="mx-auto" width="330" height="250"
-                    :image=item.image :title=item.title theme="dark" :lazy-src="`https://picsum.photos/10/6?image=${5 + 10}`"></v-card>
+                    :image=item.image :title=item.title theme="dark"      :lazy-src="`https://picsum.photos/10/6?image=${5 + 10}`" alt="`https://picsum.photos/10/6?image=${5 + 10}`"></v-card>
             </v-col>
         </v-row>
     </v-container>

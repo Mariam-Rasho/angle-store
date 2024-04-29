@@ -5,7 +5,7 @@
       <v-col md="3"  cols="10" min-height="300%" v-for="member in teams" :key="member.id">
         <TeamMember :gender=member.gender>
           <template #imgUser>
-            <v-img height="230px" width="100%" :src="member.url" :lazy-src="`https://picsum.photos/10/6?image=${5 + 10}`" cover>
+            <v-img height="230px" width="100%" :src="member.url" :lazy-src="`https://picsum.photos/10/6?image=${5 + 10}`" alt="`https://picsum.photos/10/6?image=${5 + 10}`"  cover>
             </v-img>
           </template>
           <template #name>

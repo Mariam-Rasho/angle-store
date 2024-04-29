@@ -7,7 +7,7 @@
     <v-row align="center" justify="center">
       <v-col v-for="item in testimon" cols="10" :key="item.id" md="4" min-height="300%">
         <div class="card">
-          <v-img cover :src="item.img" :lazy-src="`https://picsum.photos/10/6?image=${5 + 10}`" class="avatar"></v-img>
+          <v-img cover :src="item.img" :lazy-src="`https://picsum.photos/10/6?image=${5 + 10}`" alt="`https://picsum.photos/10/6?image=${5 + 10}`" class="avatar"></v-img>
           <v-card class="testimonial mx-auto my-12 pt-16" max-width="350">
             <v-card-item class="pb-0">
               <v-card-title>{{ item.title }}</v-card-title>

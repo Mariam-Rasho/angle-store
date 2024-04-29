@@ -5,7 +5,7 @@
       <v-col v-for="item in services" :key="item" md="4">
         <v-card class="mx-auto bg-trans" variant="flat">
           <div class="image">
-            <v-img class="align-end"  height="100" :src="item.img"  :lazy-src="`https://picsum.photos/10/6?image=${5 + 10}`">
+            <v-img class="align-end"  height="100" :src="item.img"  :lazy-src="`https://picsum.photos/10/6?image=${5 + 10}`" alt="`https://picsum.photos/10/6?image=${5 + 10}`">
             </v-img>
           </div>
           <div class="hidden">
