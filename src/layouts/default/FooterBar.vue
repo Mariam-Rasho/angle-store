@@ -44,7 +44,7 @@
             <a href="#!" class="text-reset">Jacket</a>
           </p>
            </v-col>
-        <v-col md="2" class="px-8 px-sm-12">
+        <v-col md="2" class="px-8 px-sm-16">
           <h6 class="text-uppercase fw-bold mb-4 text-h6">Contact</h6>
           <p>
             <v-icon class="fas fa-home me-3 link-secondary" icon="mdi-map-marker"></v-icon> Damascus
