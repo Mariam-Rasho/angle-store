@@ -1,7 +1,7 @@
 <template>
   <v-footer class="pa-0 mt-16" theme="light">
     <v-container class="footer pa-0 pb-3" fluid >
-      <v-row  align="center" id="row1"  class="pa-0 my-1">
+      <v-row  align="center" id="row1"  class="pa-0">
           <v-col>
           <v-img :height="70" :width="600" src="@/assets/Screenshot__295_-removebg-preview (1).png"></v-img>
         </v-col>
@@ -97,7 +97,7 @@ a {
 .triangle {
   border: 200px solid transparent;
   border-top: 0;
-  border-bottom:100px solid red;
+  border-bottom:108px solid red;
   position: absolute;
   transform: rotate(90deg);
   right: 83.6%;
@@ -126,7 +126,7 @@ a {
     background-color: #953a7d0c !important;
   }
   .footer{
-    background: linear-gradient(to top left, #82bce94d, #f88fb432) !important;
+  background: linear-gradient(to top left, #82bce94d, #f88fb432) !important;
   backdrop-filter: blur(18px) !important;
   }
   .footColor{
