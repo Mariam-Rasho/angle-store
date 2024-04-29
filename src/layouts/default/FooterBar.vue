@@ -51,15 +51,11 @@
           </p>
           <p>
             <v-icon class=" me-3 link-secondary" icon="mdi-web"></v-icon>
-            Store@Angel.com
+            Angel
           </p>
           <p>
             <v-icon icon="mdi-phone" class="me-3 link-secondary" />
             234 567 88
-          </p>
-          <p>
-            <v-icon icon="mdi-phone" class="me-3 link-secondary" />
-            234 567 89
           </p>
         </v-col>
 </v-row>
