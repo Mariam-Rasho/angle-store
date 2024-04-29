@@ -10,7 +10,7 @@ export const useCartStore = defineStore('cart', {
     actions: {
         addToCart(product, color) {
             // toast("success adding to cart", { autoClose: 1000, });
-            const existingProduct = this.cart.find(item => item.id === product.id && item.color === color);
+            const existingProduct = this.cart.find(item => item.title === product.title && item.color === color);
             // toast("success adding to cart", { autoClose: 1000, });
             if (existingProduct) {
                 toast.warning(`you added it before to cart`, { autoClose: 1000, })

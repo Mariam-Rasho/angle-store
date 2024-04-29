@@ -46,7 +46,6 @@
               <v-app-bar-nav-icon
                 color="text-purple-darken-4"
                 v-bind="props"
-                position="position-absolute"
               >
               </v-app-bar-nav-icon>
             </template>

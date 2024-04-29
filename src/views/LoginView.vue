@@ -6,12 +6,12 @@
         <v-form @submit.prevent="loginUser" class="my-6 py-6">
             <label for="email">
             <v-text-field bg-color="#ecf5f4" label="Email" type="email" v-model="email"
-                class="my-6 " name="email"></v-text-field></label>
+                class="my-6 " id="email"></v-text-field></label>
 <label for="password">
             <v-text-field bg-color="#ecf5f4" label="password" required v-model="password"
-                type="password" name="password"></v-text-field></label>
+                type="password" id="password"></v-text-field></label>
 <label for="login">
-            <v-btn type="submit" color="#659a9d" class="mr-4" value="login"> Login </v-btn></label>
+            <v-btn type="submit" color="#659a9d" class="mr-4" value="login" id="login"> Login </v-btn></label>
             <div class="text-h6 mt-8"><p>Don't have an account ?  <router-link to="Register" class="text-red-darken-2">Sign up</router-link></p></div>
         </v-form>
     </v-col>
