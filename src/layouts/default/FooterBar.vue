@@ -99,13 +99,13 @@ a {
 }
 
 .triangle {
-  border: 160px solid transparent;
+  border: 190px solid transparent;
   border-top: 0;
-  border-bottom:136px solid red;
+  border-bottom:118px solid red;
   position: absolute;
   transform: rotate(90deg);
-  right: 85%;
-  top: 31%;
+  right: 84%;
+  top: 35%;
 }
 .footColor{
   color: rgba(240, 234, 243, 0.815);
