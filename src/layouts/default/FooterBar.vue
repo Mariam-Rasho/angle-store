@@ -1,42 +1,50 @@
 <template>
   <v-footer class="pa-0 mt-16" theme="light">
-    <v-container class="text-center footer pa-0 pb-3" fluid >
-      <v-row  align="center" id="row1" class="pa-0 my-1">
-          <!-- <v-col class="footColor">Get connected with us on social networks!</v-col> -->
+    <v-container class="footer pa-0 pb-3" fluid >
+      <v-row  align="center" id="row1"  class="pa-0 my-1">
           <v-col>
           <v-img :height="70" :width="600" src="@/assets/Screenshot__295_-removebg-preview (1).png"></v-img>
         </v-col>
         <v-col>
-          <div>
+          <div class="text-center">
             <v-btn class="footColor" v-for="icon in icons" :key="icon"  :icon="icon"  variant="plain" size="small">
             </v-btn>
           </div>
         </v-col>
       </v-row>
       <!-- <v-divider :thickness="1"></v-divider> -->
-<v-row align="center" class="pt-5" justify="space-between">
-        <v-col >
-          <h6 class="text-uppercase fw-bold mb-4 text-h6">
-            <i>Angel</i>
-          </h6>
-        </v-col>
-<v-col>
-          <h6 class="text-uppercase fw-bold mb-2 text-h5">Pages</h6>
+<v-row align="center" class="pt-5" justify="center">
+  <v-col md="2" class="text-center">
+    <h6 class="text-uppercase fw-bold mb-2 text-h5">Pages</h6>
+    <p>
+      <a href="#!" class="text-reset">Home</a>
+    </p>
+    <p>
+      <a href="#!" class="text-reset">Cart</a>
+    </p>
+    <p>
+      <a href="#!" class="text-reset">Favorite</a>
+    </p>
+    <p>
+      <a href="#!" class="text-reset">About</a>
+    </p>
+     </v-col>
+<v-col md="5" class="text-center">
+          <h6 class="text-uppercase fw-bold mb-2 text-h5">Categories</h6>
           <p>
-            <a href="#!" class="text-reset">Home</a>
+            <a href="#!" class="text-reset">Dress</a>
           </p>
           <p>
-            <a href="#!" class="text-reset">Cart</a>
+            <a href="#!" class="text-reset">T-Shirt</a>
           </p>
           <p>
-            <a href="#!" class="text-reset">Favorite</a>
+            <a href="#!" class="text-reset">Shoes</a>
           </p>
           <p>
-            <a href="#!" class="text-reset">About</a>
+            <a href="#!" class="text-reset">Jacket</a>
           </p>
            </v-col>
-
-        <v-col>
+        <v-col md="2" class="px-8">
           <h6 class="text-uppercase fw-bold mb-4 text-h6">Contact</h6>
           <p>
             <v-icon class="fas fa-home me-3 link-secondary" icon="mdi-map-marker"></v-icon> Damascus
