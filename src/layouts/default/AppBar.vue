@@ -4,7 +4,7 @@
       <v-row no-gutters justify="center" align="center" class="py-8">
         <v-col cols="3" >
           <v-app-bar-title>
-            <v-img min-width="120px" src="@/assets/Screenshot__295_-removebg-preview (1).png"  :lazy-src="`https://picsum.photos/10/6?image=${5 + 10}`"></v-img>
+            <v-img min-width="100px" src="@/assets/Screenshot__295_-removebg-preview (1).png"  :lazy-src="`https://picsum.photos/10/6?image=${5 + 10}`"></v-img>
           </v-app-bar-title>
         </v-col>
       <v-col cols="auto" md="6" class="d-none d-sm-flex align-center justify-center">
@@ -35,12 +35,12 @@
             <v-icon color="brown">{{ $i18n.locale === 'en' ? 'mdi-abjad-arabic' : 'mdi-alpha-e' }}
               mdi-abjad-arabic</v-icon>
           </v-btn>
-          <v-btn icon @click="toggleTheme()" class="pa-4" size="medium">
+          <v-btn icon @click="toggleTheme()" class="pa-md-4 pa-0" size="medium">
             <v-icon color="brown-lighten-2"> mdi-brightness-4</v-icon>
           </v-btn>
 
         </v-col>
-        <v-col class="text-center d-md-none d-sm-flex" cols="2">
+        <v-col class="text-center d-md-none d-xm-flex" cols="2">
           <v-menu width="100%" class="text-center">
             <template v-slot:activator="{ props }">
               <v-app-bar-nav-icon

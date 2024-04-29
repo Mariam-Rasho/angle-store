@@ -1,5 +1,5 @@
 <template>
-  <v-carousel id="home" cycle v-model="onboarding" show-arrows="hover" height="700" hide-delimiters class="pt-md-8 pt-16 mt-3 gradient">
+  <v-carousel id="home" cycle v-model="onboarding" show-arrows="hover" height="700" hide-delimiters class="pt-md-8 pt-10  gradient">
     <v-carousel-item v-for="item in items" :key="item" >
         <v-row justify="center" align="center" class="mx-auto w-75 h-100" >
           <v-col md="7" class="text-center">

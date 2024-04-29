@@ -53,7 +53,6 @@ const headers=[{
 </script>
 <template>
 <div class="mt-16 w-md-75   mx-auto">
-  <h1 class="text-md-h3 text-center mb-16">Shopping Cart - From Website Angel</h1>
   <v-card class="w-75 w-sm-100 mx-auto">
     <v-card-title class="d-flex align-center justify-space-between flex-wrap py-md-2 py-sm-2">
        <div><v-icon color='deep-purple-lighten-2'>mdi-cart</v-icon> &nbsp;

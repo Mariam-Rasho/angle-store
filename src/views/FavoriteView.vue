@@ -11,10 +11,10 @@ const removeFromLove = (id) => {
 <template>
   <v-container class="mt-16 pt-16" id="home">
     <v-row align="center" justify="center">
-      <v-col v-for="product in products" :key="product.id" cols="10"  md="3">
+      <v-col v-for="product in products" :key="product.id" cols="7"  md="3">
         <ProductCard :product="product">
           <template #delete>
-            <v-btn class="ml-md-16 ml-0" style="margin-left: 150px !important;" icon="mdi-delete" size="small" variant="text" color="error" @click="removeFromLove(product.id)" />
+            <v-btn   icon="mdi-delete" size="small" variant="text" color="error" @click="removeFromLove(product.id)" />
           </template>
         </ProductCard>
       </v-col>
